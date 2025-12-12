@@ -1,7 +1,7 @@
 # streamlit-login-form
 
 ## Usage
-Add user into config.yaml
+Edit config.yaml and add users into usernames section;
 ```yaml
 cookie:
     expiry_days: 1
@@ -13,10 +13,9 @@ credentials:
             name: david
             password: admin
 ```
+> Password will be hashed automatically when you run the app.
 
-Password will be hashed automatically when you run the app.
-
-Place login form in your app
+Place login form in your app;
 ```python
 # main.py
 import streamlit as st
@@ -26,7 +25,7 @@ if not login():
     st.stop()
 ```
 
-Run your app
+Run your app;
 ```bash
 streamlit run main.py
 ```
