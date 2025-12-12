@@ -1,0 +1,9 @@
+cookie:
+  expiry_days: 1
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    david:
+      name: david
+      password: admin
